@@ -1,5 +1,5 @@
 # Lokasi berkas image
 image:
-  file: .github.dockerfile
+  file: .gitpod.dockerfile
 
 # End
