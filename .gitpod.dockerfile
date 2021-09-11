@@ -15,5 +15,5 @@ libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm
 libtinfo5 libncurses5 neofetch htop mc -y
 
 # Tambahan
-RUN git clone https://github.com/akhilnarang/scripts /workspace/Gitpod-Workspaces/sc
-RUN bash /workspace/Gitpod-Workspaces/sc/setup/android_build_env.sh
+RUN git clone https://github.com/wikwokproject/wikwok-kernel kernel
+RUN bash /workspace/Gitpod-Workspaces/kernel/build.sh
